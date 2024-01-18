@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Afacad:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- Link a mi css -->
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <img src="" alt="Logo">
+        <nav>
+            <ul id="lista1">
+                <li>
+                    <a href="../index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="./animes.html">Animes</a>
+                </li>
+                <li>
+                    <a href="./mangas.html">Mangas</a>
+                </li>
+                <li>
+                    <a href="./noticias.html">Noticias</a>
+                </li>
+                <li>
+                    <a href="./contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>    
+    <main class = contacto>
+        <section>
+            <h1>Contactenos</h1>
+            <form action="enviar.php" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required><br><br>
+                <label for="correo">Correo electrónico:</label>
+                <input type="email" id="correo" name="correo" required><br><br>
+                <label for="mensaje">Mensaje:</label><br>
+                <textarea id="mensaje" name="mensaje" rows="5" cols="30" required></textarea><br><br>
+                <input type="submit" value="Enviar">
+            </form>        
+            <p>También puedes contactarnos por teléfono al 555-1234 o visitarnos en nuestra dirección física:</p>
+            <address>
+                Calle falsa 123<br>
+                ciudad te la debo<br>
+                Argentina
+            </address>
+        </section>
+        
+    </main>
+    <footer>
+        <section class="redes">
+            <tr>
+                <td>
+                    <a href="">Facebook</a>
+                </td>
+                <td>
+                    <a href="">Instagram</a>
+                </td>
+                <td>
+                    <a href="">Twitter</a>
+                </td>
+            </tr>
+        </section>
+        <p>Derechos de autor © 2023 Noticias. Todos los derechos reservados.</p>    
+    </footer>
+</body>
+</html>

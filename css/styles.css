@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Estilos generales */
+html{
+    font-size: 65%; /*Cambia la medida rem de 16px a 10px*/
+    font-family: 'Afacad', sans-serif;
+    color: crimson;
+}
+
+
+body{
+    background-color: black;
+    background-image: url(../img/black_background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+
+h1{
+    font-size: 300%;
+    color: rgba(253, 30, 30, 0.922);
+    background-color: lightcoral;
+}
+h2{
+    font-size: 200%;
+    color: rgba(253, 30, 30, 0.922);
+    background-color:lightcoral;
+}
+
+
+h3{
+    color: crimson;
+    text-align: end;
+}
+
+
+
+
+
+.filas figcaption{
+    font-size: 200%; /*Cambia la medida rem de 16px a 10px*/
+    font-family: 'Afacad', sans-serif;
+    color: rgb(239, 224, 12);
+    text-align: center;
+    display: inline-flex;
+
+}
+
+
+
+.subrayado{
+    text-decoration: underline;
+}
+
+
+/* Headers */
+header{
+    background-color: lightcoral;
+    position: sticky;
+    top: 0px;
+}
+.tamaño{
+    font-size: 24px;
+}
+
+
+header nav div a{
+    color: crimson;
+    text-decoration: none;
+    text-size-adjust: 100px;
+    font-family: 'Afacad', sans-serif;
+    font-weight: 7000;
+    font-size: 20px;
+    font-size: 3rem;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+
+.lista1 li {
+    display:inline-block;
+    padding-left:10px;
+    padding-right:10px;
+    list-style: none;
+    
+    
+}
+/* Headers */
+
+
+
+
+.lista-anime li{
+    display:inline-flex;
+    padding-left:10px;
+    padding-right:10px
+}
+.lista-anime figcaption{
+    font-size: 200%; /*Cambia la medida rem de 16px a 10px*/
+    font-family: 'Afacad', sans-serif;
+    color: rgb(239, 224, 12);
+    text-align: center;
+}
+
+header nav ul li a{
+    color: crimson;
+    text-decoration: none;
+    font-family: 'Afacad', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    font-size: 3rem;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+/* Main index */
+
+main{
+    margin: 1% 4%;
+}
+.main-index h3{
+    text-decoration: overline;
+}
+
+.background-image{
+    /* height -> Alto */
+    /* width -> Ancho */
+    height: 100px;
+    width: 100px;
+    column-span: 5px;
+    background-image: url("./../img/flight.png");
+    /* background-position: center; */
+    background-position-x:center;
+    background-position-y: bottom;      
+    color: crimson;
+    text-decoration: none;
+    font-family: 'Afacad', sans-serif;
+    text-align: center;
+}
+
+/* Main index */
+#filas-de-filtros label{
+    display:inline;
+    padding-left:10px;
+    padding-right:10px;
+}
+main section ul li a figure{
+    display:inline;
+    padding-left:10px;
+    padding-right:10px;
+}
+.filas{
+    font-size: 100%; /*Cambia la medida rem de 16px a 10px*/
+    font-family: 'Afacad', sans-serif;
+    color: rgb(239, 224, 12);
+    
+}
+
+
+
+
+/* Mains  */
+.main-index h3{
+    text-decoration: overline;
+}
+
+.background-image{
+    /* height -> Alto */
+    /* width -> Ancho */
+    height: 100px;
+    width: 100px;
+    column-span: 5px;
+    background-image: url("./../img/flight.png");
+    /* background-position: center; */
+    background-position-x:center;
+    background-position-y: bottom;      
+    color: crimson;
+    text-decoration: none;
+    font-family: 'Afacad', sans-serif;
+    text-align: center;
+}
+
+
+
+
+
+
+
+/* Mains  */
+
+/* Mangas  */
+.lista-manga li{
+    display:inline-block;
+    padding-left:10px;
+    padding-right:10px
+}
+.lista-manga figcaption{
+    font-size: 200%; /*Cambia la medida rem de 16px a 10px*/
+    font-family: 'Afacad', sans-serif;
+    color: rgb(239, 224, 12);
+}
+
+
+/*  noticias*/
+.todas-noticias img{
+    float: left;
+    margin-right: 10px;
+    width: 18%;
+    height: auto;
+}
+.todas-noticias h2{
+    font-size: 200%;
+    color: rgba(253, 30, 30, 0.922);
+    
+}
+.todas-noticias p{
+    font-size: 150%;
+    color: rgba(240, 238, 217, 0.922);
+}
+.todas-noticias h3{
+    color: rgba(253, 238, 30, 0.922);
+    
+}
+/*  noticias*/
+
+/* contacto*/
+.contacto label{
+    font-size: 200%; /*Cambia la medida rem de 16px a 10px*/
+    font-family: 'Afacad', sans-serif;
+    color: rgba(253, 238, 30, 0.922)
+}
+.contacto p{
+    font-size: 200%; /*Cambia la medida rem de 16px a 10px*/
+    font-family: 'Afacad', sans-serif;
+    color: rgba(253, 238, 30, 0.922)
+}
+.contacto address{
+    font-size: 200%; /*Cambia la medida rem de 16px a 10px*/
+    font-family: 'Afacad', sans-serif;
+    color: rgba(253, 238, 30, 0.922)
+}
+
+/* Footer */
+.redes{
+    font-size: 400%;
+    color: cadetblue;
+    background-color: lightcoral;
+}
+
