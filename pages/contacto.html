@@ -54,18 +54,41 @@
             </div>
         </nav>
     </header>    
-    <main class = contacto>
-        <section>
-            <h1>Contactenos</h1>
-            <form action="enviar.php" method="post">
-                <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre" name="nombre" required><br><br>
-                <label for="correo">Correo electrónico:</label>
-                <input type="email" id="correo" name="correo" required><br><br>
-                <label for="mensaje">Mensaje:</label><br>
-                <textarea id="mensaje" name="mensaje" rows="5" cols="30" required></textarea><br><br>
-                <input type="submit" value="Enviar">
-            </form>        
+    <main>
+        <section class = contact-primer-column>
+            <div class="pag-contacto">
+                <h1>Pagina de contacto</h1>
+            </div>
+        </section>
+        <section class="seccion">
+            <div class="columnas">
+                <div class="media-columna">
+                    <h2>Contactenos</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, sint odio? Odio aspernatur libero eius nisi fuga natus! Eveniet iste nihil temporibus provident dolorem fuga quidem quam totam excepturi quaerat.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque commodi laboriosam saepe ab. Numquam ratione non impedit. Iste nemo quam quis. Distinctio repudiandae accusantium quisquam?
+                    </p>
+                </div>
+                <div class="media-columna">
+                    <h3>Formulario de contacto</h3>
+                    <p>* campos requeridos</p>
+                    <form action="" class="formulario">
+                        <input type="text" placeholder="Tu nombre *">
+                        <input type="text" placeholder="Asunto *">
+                        <input type="text" placeholder="Email *">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Detalles">                        
+                        </textarea>
+                        <button type="submit">
+                            Enviar
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+        </section>
+        <section class="direccion">   
             <p>También puedes contactarnos por teléfono al 555-1234 o visitarnos en nuestra dirección física:</p>
             <address>
                 Calle falsa 123<br>

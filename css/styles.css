@@ -238,9 +238,92 @@ main section ul li a figure{
     width: 100%;
     border-radius: 1%;
 }
+.linea {
+    border-top: 1px solid white;
+    margin: 10px 0;
+}
 /*  noticias*/
 
 /* contacto*/
+.contact-primer-column{
+    background: linear-gradient(to bottom,rgb(0 0 0/.5), rgb(0 0 0 /.5)), url(../img/foto.jpg)center;
+    background-size: cover;
+    height: 200px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    text-align: end;
+    border-radius: 2%;
+    font-size: 150%;
+    
+}
+main section div h1{
+    color: white;
+    font-weight: unset;
+    font-family: 'Afacad', sans-serif;
+    font-size: 150%;
+}
+main section div div p{
+    color: rgba(195, 207, 241, 0.922);
+    text-decoration: none;
+    font-family: 'Afacad', sans-serif;
+    font-size: 150%;
+}
+main section div div h3{
+    text-align: center;
+    font-family: 'Afacad', sans-serif;
+    font-size: 150%;
+}
+.seccion{
+    max-width: 1200px;
+    margin: 3rem auto;
+    padding: 1rem;
+    
+}
+.columnas{
+    display: grid;
+    grid-template-columns: 1fr
+    1fr;
+    column-gap: 4rem;
+}
+.formulario{
+    display: flex;
+    flex-flow: column;
+}
+.formulario input, .formulario textarea{
+    margin: .5rem 0;
+    padding: .5rem .2rem;
+    background-color: rgb(49, 49, 70);
+    border: none;
+    font-size: 150%;
+}
+.formulario button{
+    width: fit-content;
+    border-color: rgb(86, 86, 248);
+    padding: .5rem .4rem;
+    background-color: rgb(49, 49, 70);
+    color: rgba(240, 238, 217, 0.922);
+    font-size: 150%;
+}
+.direccion{
+    color: rgba(240, 238, 217, 0.922);
+    p{
+        font-size: 120%;
+    }
+    address{
+        font-size: 120%;
+
+    }
+}
+@media (max-width:640px){
+    .columnas{
+        grid-template-columns: 1fr !important;
+    }
+
+}
+
+
 .contacto label{
     font-size: 200%; /*Cambia la medida rem de 16px a 10px*/
     font-family: 'Afacad', sans-serif;
