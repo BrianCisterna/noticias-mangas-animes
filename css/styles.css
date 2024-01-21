@@ -9,8 +9,7 @@ html{
 
 
 body{
-    background-color: black;
-    background-image: url(../img/black_background.jpg);
+    background-color: rgb(31, 30, 34);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -20,23 +19,30 @@ body{
 
 h1{
     font-size: 300%;
-    color: rgba(253, 30, 30, 0.922);
-    background-color: lightcoral;
+    color: rgba(81, 111, 211, 0.922);
+    text-decoration: none;
+    font-weight: bolder;
 }
 h2{
     font-size: 200%;
-    color: rgba(253, 30, 30, 0.922);
-    background-color:lightcoral;
+    color: rgba(81, 111, 211, 0.922);
+    text-decoration: none
 }
 
 
 h3{
-    color: crimson;
+    color:rgba(81, 111, 211, 0.922);
     text-align: end;
+    text-decoration: none
+}
+h4{
+    color: rgba(195, 207, 241, 0.922);
+    text-decoration: none;
 }
 
-
-
+a{
+    text-decoration: none;
+}
 
 
 .filas figcaption{
@@ -227,6 +233,10 @@ main section ul li a figure{
 .todas-noticias h3{
     color: rgba(253, 238, 30, 0.922);
     
+}
+.img-noticias{
+    width: 100%;
+    border-radius: 1%;
 }
 /*  noticias*/
 
