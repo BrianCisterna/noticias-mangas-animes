@@ -99,7 +99,31 @@ header nav div a{
 }
 /* Headers */
 
-
+/* index */
+.box-anime{
+    background-color: rgb(49, 49, 70);
+    border-radius: 10px;
+}
+.container-cards{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+.scrolling-cards{
+    flex: 0 0 auto;
+    border: solid 1px rgba(81, 111, 211, 0.922);
+    margin: 10px;
+    width: 180px ;
+    height: 262px;
+}
+.botones-scrolling{
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+/* final index */
 
 
 .lista-anime li{
@@ -152,6 +176,13 @@ main{
 }
 
 /* Main index */
+main section ul li figure a img {
+    width: 132px;
+    height: 198px;
+    border-radius: 2%;
+
+}
+
 #filas-de-filtros label{
     display:inline;
     padding-left:10px;
@@ -192,8 +223,6 @@ main section ul li a figure{
     font-family: 'Afacad', sans-serif;
     text-align: center;
 }
-
-
 
 
 
