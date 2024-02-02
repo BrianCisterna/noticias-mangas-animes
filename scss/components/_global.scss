@@ -1,0 +1,43 @@
+/*estilos globales*/
+html {
+    font-size: 65%;
+    font-family: 'Afacad', sans-serif;
+    color: crimson;
+}
+
+
+body {
+    background-color: rgb(31, 30, 34);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-size: 300%;
+    color: rgba(81, 111, 211, 0.922);
+    text-decoration: none;
+    font-weight: bolder;
+}
+h2 {
+    font-size: 200%;
+    color: rgba(81, 111, 211, 0.922);
+    text-decoration: none
+}
+h3 {
+    color: rgba(81, 111, 211, 0.922);
+    text-align: end;
+    text-decoration: none
+}
+h4 {
+    color: rgba(195, 207, 241, 0.922);
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+}
+
+
+.subrayado {
+    text-decoration: underline;
+}

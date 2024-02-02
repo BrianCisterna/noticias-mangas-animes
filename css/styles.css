@@ -118,10 +118,20 @@ header {
     justify-content: end;
     margin: 20px;
 }
+.hijo-index-m{
+    margin: 10px;
+    justify-items: center;
+    align-items: center;
+    position: relative;
+}
+.hijo-index-m img {
+    width: 92%;
+
+}
 
 @media (max-width:768px) {
     .box-index {
-        grid-template-columns: 1fr 1fr ;
+        grid-template-columns: 1fr ;
     }
 
 }
@@ -134,7 +144,7 @@ header {
 
 @media (max-width:768px) {
     .box-index-m {
-        grid-template-columns: 1fr 1fr ;
+        grid-template-columns: 1fr ;
     }
 
 }

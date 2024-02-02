@@ -1,0 +1,118 @@
+header {
+  position: sticky;
+  top: 0px;
+}
+
+/*estilos globales*/
+html {
+  font-size: 65%;
+  font-family: "Afacad", sans-serif;
+  color: crimson;
+}
+
+body {
+  background-color: rgb(31, 30, 34);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h1 {
+  font-size: 300%;
+  color: rgba(81, 111, 211, 0.922);
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+h2 {
+  font-size: 200%;
+  color: rgba(81, 111, 211, 0.922);
+  text-decoration: none;
+}
+
+h3 {
+  color: rgba(81, 111, 211, 0.922);
+  text-align: end;
+  text-decoration: none;
+}
+
+h4 {
+  color: rgba(195, 207, 241, 0.922);
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.subrayado {
+  text-decoration: underline;
+}
+
+.main-index .box-index {
+  background-color: rgb(49, 49, 70);
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  align-items: center;
+  justify-content: end;
+  margin: 20px;
+}
+.main-index .box-index .hijo-index {
+  margin: 10px;
+  justify-items: center;
+  align-items: center;
+  position: relative;
+}
+.main-index .box-index .hijo-index img {
+  width: 92%;
+}
+.main-index .box-index .hijo-index .titulo {
+  position: absolute;
+  font-size: 120%;
+  bottom: 10%;
+  left: 4%;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 2px;
+  border-radius: 1px;
+}
+.main-index .box-index-m {
+  background-color: rgb(39, 63, 39);
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  align-items: center;
+  justify-content: end;
+  margin: 20px;
+}
+.main-index .box-index-m .box-hijo-m {
+  background-color: rgb(39, 63, 39);
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  align-items: center;
+  justify-content: end;
+  margin: 20px;
+}
+.main-index .box-index-m .box-hijo-m .hijo-index-m {
+  margin: 10px;
+  justify-items: center;
+  align-items: center;
+  position: relative;
+}
+.main-index .box-index-m .box-hijo-m .hijo-index-m .img-m {
+  width: 92%;
+}
+.main-index .box-index-m .box-hijo-m .hijo-index-m .titulo-m {
+  position: absolute;
+  font-size: 120%;
+  bottom: 10%;
+  left: 4%;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 2px;
+  border-radius: 1px;
+}
+
+/*# sourceMappingURL=main.css.map */
