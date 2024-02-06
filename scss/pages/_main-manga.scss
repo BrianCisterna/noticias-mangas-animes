@@ -1,0 +1,13 @@
+.main-manga{
+
+    z-index: 2;
+    margin: 1% 4%;
+    .hijo-manga {
+        /* el extend sirve para acomodar las imagenes*/
+        @extend %posicion;
+        img{
+            border-radius: 3px;
+        }
+    }
+    
+}

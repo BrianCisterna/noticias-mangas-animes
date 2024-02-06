@@ -1,8 +1,4 @@
-header {
-  position: sticky;
-  top: 0px;
-}
-
+@charset "UTF-8";
 /*estilos globales*/
 html {
   font-size: 65%;
@@ -49,6 +45,77 @@ a {
   text-decoration: underline;
 }
 
+.titulo {
+  position: absolute;
+  font-size: 120%;
+  bottom: 10%;
+  left: 4%;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 2px;
+  border-radius: 1px;
+}
+
+.formularios-buscar {
+  display: inline;
+  flex-flow: column;
+}
+
+.formularios-buscar input {
+  background-color: rgb(49, 49, 70);
+  border: solid;
+  font-size: 130%;
+  border-color: rgb(86, 86, 248);
+}
+.formularios-buscar select {
+  background-color: rgb(49, 49, 70);
+  border: solid;
+  font-size: 130%;
+  border-color: rgb(86, 86, 248);
+}
+.formularios-buscar select option {
+  color: beige;
+}
+
+.linea {
+  border-top: 1px solid white;
+  margin: 10px 0;
+}
+
+.main-anime .hijo-anime, .main-manga .hijo-manga {
+  padding-top: 20px;
+  position: relative;
+}
+
+header {
+  z-index: 1;
+  position: sticky;
+  top: 0px;
+}
+header .tamaño {
+  font-size: 22px !important;
+}
+
+.footer-f {
+  font-family: "Afacad", sans-serif;
+  color: aquamarine;
+  background-color: rgb(11, 6, 39);
+  font-size: 18px;
+}
+.footer-f .redes {
+  font-family: "Afacad", sans-serif;
+  color: aquamarine;
+  display: inline-flex;
+  justify-content: center;
+  padding: 10px;
+}
+.footer-f .redes .separacion {
+  margin: 20px;
+}
+
+.main-index {
+  z-index: 2;
+}
 .main-index .box-index {
   background-color: rgb(49, 49, 70);
   border-radius: 10px;
@@ -77,42 +144,149 @@ a {
   padding: 2px;
   border-radius: 1px;
 }
-.main-index .box-index-m {
-  background-color: rgb(39, 63, 39);
-  border-radius: 10px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  align-items: center;
-  justify-content: end;
-  margin: 20px;
+
+.main-noticias {
+  /*linea separadora de noticias*/
 }
-.main-index .box-index-m .box-hijo-m {
-  background-color: rgb(39, 63, 39);
-  border-radius: 10px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  align-items: center;
-  justify-content: end;
-  margin: 20px;
+.main-noticias .tituloDeNoticia {
+  font-size: 24px !important;
+  font-family: "Afacad", sans-serif;
+  font-weight: bold;
 }
-.main-index .box-index-m .box-hijo-m .hijo-index-m {
-  margin: 10px;
-  justify-items: center;
-  align-items: center;
-  position: relative;
+.main-noticias .img-noticias {
+  width: 100%;
+  border-radius: 1%;
 }
-.main-index .box-index-m .box-hijo-m .hijo-index-m .img-m {
-  width: 92%;
+.main-noticias .linea {
+  border-top: 1px solid white;
+  margin: 10px 0;
 }
-.main-index .box-index-m .box-hijo-m .hijo-index-m .titulo-m {
-  position: absolute;
-  font-size: 120%;
-  bottom: 10%;
-  left: 4%;
+
+.main-contacto {
+  margin: 1% 4%;
+}
+.main-contacto h1 {
   color: white;
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: 2px;
-  border-radius: 1px;
+  font-weight: unset;
+  font-family: "Afacad", sans-serif;
+  font-size: 150%;
+}
+.main-contacto p {
+  color: rgba(195, 207, 241, 0.922);
+  text-decoration: none;
+  font-family: "Afacad", sans-serif;
+  font-size: 150%;
+}
+.main-contacto h3 {
+  text-align: center;
+  font-family: "Afacad", sans-serif;
+  font-size: 150%;
+}
+.main-contacto .contact-primer-column {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/foto.jpg) center;
+  background-size: cover;
+  height: 200px;
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  text-align: end;
+  border-radius: 2%;
+  font-size: 150%;
+}
+.main-contacto .contact-primer-column .pag-contacto {
+  color: white;
+  font-weight: unset;
+  font-family: "Afacad", sans-serif;
+  font-size: 150%;
+}
+.main-contacto .seccion {
+  max-width: 1200px;
+  margin: 3rem auto;
+  padding: 1rem;
+}
+.main-contacto .seccion .columnas {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 4rem;
+}
+.main-contacto .seccion .columnas .media-columna .formulario {
+  display: flex;
+  flex-flow: column;
+}
+.main-contacto .seccion .columnas .media-columna .formulario input {
+  margin: 0.5rem 0;
+  padding: 0.5rem 0.2rem;
+  background-color: rgb(49, 49, 70);
+  border: none;
+  font-size: 150%;
+}
+.main-contacto .seccion .columnas .media-columna .formulario textarea {
+  margin: 0.5rem 0;
+  padding: 0.5rem 0.2rem;
+  background-color: rgb(49, 49, 70);
+  border: none;
+  font-size: 150%;
+}
+.main-contacto .seccion .columnas .media-columna .formulario button {
+  width: fit-content;
+  border-color: rgb(86, 86, 248);
+  padding: 0.5rem 0.4rem;
+  background-color: rgb(49, 49, 70);
+  color: rgba(240, 238, 217, 0.922);
+  font-size: 150%;
+}
+.main-contacto .direccion {
+  /* color de las palabras de direccion*/
+  color: rgba(240, 238, 217, 0.922);
+}
+.main-contacto .direccion p {
+  font-size: 120%;
+}
+.main-contacto .direccion address {
+  font-size: 120%;
+}
+
+.main-manga {
+  z-index: 2;
+  margin: 1% 4%;
+}
+.main-manga .hijo-manga {
+  /* el extend sirve para acomodar las imagenes*/
+}
+.main-manga .hijo-manga img {
+  border-radius: 3px;
+}
+
+.main-anime {
+  z-index: 2;
+  margin: 1% 4%;
+}
+.main-anime .hijo-anime {
+  /* el extend sirve para acomodar las imagenes*/
+}
+.main-anime .hijo-anime img {
+  border-radius: 3px;
+}
+
+@media screen and (max-width: 1024px) {
+  .main-index .box-index {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media screen and (max-width: 768px) {
+  /*index*/
+  .main-index .box-index {
+    grid-template-columns: 1fr;
+  }
+  /* noticias*/
+  img {
+    border-radius: 3px;
+  }
+  /*footer*/
+  .footer-f .redes {
+    display: inline-block;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

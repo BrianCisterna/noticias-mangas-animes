@@ -1,0 +1,16 @@
+.main-noticias {
+    .tituloDeNoticia {
+        font-size: 24px !important;
+        font-family: 'Afacad', sans-serif;
+        font-weight: bold;
+    }
+    .img-noticias {
+        width: 100%;
+        border-radius: 1%;
+    }
+    /*linea separadora de noticias*/
+    .linea {
+        border-top: 1px solid white;
+        margin: 10px 0;
+    }
+}

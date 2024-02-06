@@ -1,4 +1,9 @@
-header{
+header {
+    z-index: 1;
     position: sticky;
     top: 0px;
+
+    .tamaño {
+        font-size: 22px !important;
+    }
 }

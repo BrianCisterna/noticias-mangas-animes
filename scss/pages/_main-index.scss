@@ -1,4 +1,5 @@
 .main-index {
+    z-index: 2;
     .box-index {
         background-color: rgb(49, 49, 70);
         border-radius: 10px;
@@ -30,49 +31,5 @@
             }
 
         }
-    }
-
-    .box-index-m {
-        background-color: rgb(39, 63, 39);
-        border-radius: 10px;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-        align-items: center;
-        justify-content: end;
-        margin: 20px;
-
-        .box-hijo-m {
-            background-color: rgb(39, 63, 39);
-            border-radius: 10px;
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-            align-items: center;
-            justify-content: end;
-            margin: 20px;
-
-            .hijo-index-m {
-                margin: 10px;
-                justify-items: center;
-                align-items: center;
-                position: relative;
-
-                .img-m {
-                    width: 92%;
-                }
-
-                .titulo-m {
-                    position: absolute;
-                    font-size: 120%;
-                    bottom: 10%;
-                    left: 4%;
-                    color: white;
-                    background-color: rgb(0 0 0 /.5);
-                    padding: 2px;
-                    border-radius: 1px;
-                }
-            }
-        }
-
-
     }
 }

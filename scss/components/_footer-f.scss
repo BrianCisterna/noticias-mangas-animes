@@ -1,0 +1,19 @@
+.footer-f {
+    font-family: 'Afacad', sans-serif;
+    color: aquamarine;
+    background-color: rgb(11, 6, 39);
+    font-size: 18px;
+
+
+    .redes {
+        font-family: 'Afacad', sans-serif;
+        color: aquamarine;
+        display: inline-flex;
+        justify-content: center;
+        padding: 10px;
+        .separacion{
+            margin: 20px;
+            
+        }
+    }
+}

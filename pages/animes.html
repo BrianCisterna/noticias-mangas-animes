@@ -14,49 +14,53 @@
     <link href="https://fonts.googleapis.com/css2?family=Afacad:wght@400;500;700&display=swap" rel="stylesheet">
     
     <!-- Link a mi css -->
-    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/main.css">
+
+
     <title>Animes </title>
+
 </head>
 
 <body>
-    <header class="color-nav">
+    <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark border-bottom border-body" data-bs-theme="dark">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
                     <img src="../img/a-letter-logo-png-86.png" alt="Logo" width="30" height="24"
                         class="d-inline-block align-text-top">
                 </a>
-                <a class="navbar-brand tamaño" href="../index.html">Inicio</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active tamaño" aria-current="page" href="./animes.html">Animes</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active tamaño" href="./mangas.html">Mangas</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active tamaño" href="./noticias.html">Noticias</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active tamaño" href="./contacto.html">Contacto</a>
-                        </li>
-
-                    </ul>
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Buscar</button>
-                    </form>
-                </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active tamaño" href="../index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active tamaño" href="./animes.html">Animes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active tamaño" href="./mangas.html">Mangas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active tamaño" href="./noticias.html">Noticias</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active tamaño" href="./contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Buscar</button>
+                        </form>
+                    </div>
             </div>
         </nav>
     </header>
-    <main>
+    <main class="main-anime">
         <section>
             <h1>Lista completa de anime</h1>
             <form class="formularios-buscar">
@@ -64,7 +68,11 @@
                 <select id="genero" name="genero">
                     <option value="comedia">Comedia</option>
                     <option value="drama">Drama</option>
+                    <option value="accion">Aventura</option>
                     <option value="accion">Acción</option>
+                    <option value="accion">Sobrenatural</option>
+                    <option value="accion">Horror</option>
+                    <option value="accion">Psicologico</option>
                 </select>
                 <label for="tipo">Tipo:</label>
                 <select id="tipo" name="tipo">
@@ -79,76 +87,76 @@
                     <option value="activo">Activo</option>
                     <option value="inactivo">Inactivo</option>
                 </select>
-                <input type="submit" value="Buscar">
+                <input class="button" type="submit" value="Buscar">
             </form>
             <br><br><br>
             <div class="row d-flex justify-content-center">
-                <div class="col-sm-6 col-md-3 col-lg-2 hijo-manga">
+                <div class="col-sm-6 col-md-3 col-lg-2 hijo-anime">
                     <a href="https://www3.animeflv.net/anime/captain-tsubasa-season-2-junior-youthhen">
                         <img src="../img/captaintsu.jpg" alt="Tsubasa" class="img-fluid w-100 d-block">
                         <p class="titulo">Captain Tsubasa Season 2</p>
                     </a>
                 </div>
-                <div class="col-sm-6 col-md-3 col-lg-2 hijo-manga">
-                    <a href="https://www3.animeflv.net/anime/captain-tsubasa-season-2-junior-youthhen">
-                        <img src="../img/captaintsu.jpg" alt="Tsubasa" class="img-fluid w-100 d-block">
-                        <p class="titulo">Captain Tsubasa Season 2</p>
+                <div class="col-sm-6 col-md-3 col-lg-2 hijo-anime">
+                    <a href="">
+                        <img src="../img/dark gatering.jpg" alt="dark gatering" class="img-fluid w-100 d-block">
+                        <p class="titulo">Dark Gatering</p>
                     </a>
-                </div><div class="col-sm-6 col-md-3 col-lg-2 hijo-manga">
-                    <a href="https://www3.animeflv.net/anime/captain-tsubasa-season-2-junior-youthhen">
-                        <img src="../img/captaintsu.jpg" alt="Tsubasa" class="img-fluid w-100 d-block">
-                        <p class="titulo">Captain Tsubasa Season 2</p>
+                </div><div class="col-sm-6 col-md-3 col-lg-2 hijo-anime">
+                    <a href="">
+                        <img src="../img/solo leveling.jpg" alt="sololeveling" class="img-fluid w-100 d-block">
+                        <p class="titulo">Solo Leveling</p>
                     </a>
-                </div><div class="col-sm-6 col-md-3 col-lg-2 hijo-manga">
-                    <a href="https://www3.animeflv.net/anime/captain-tsubasa-season-2-junior-youthhen">
-                        <img src="../img/captaintsu.jpg" alt="Tsubasa" class="img-fluid w-100 d-block">
-                        <p class="titulo">Captain Tsubasa Season 2</p>
+                </div><div class="col-sm-6 col-md-3 col-lg-2 hijo-anime">
+                    <a href="">
+                        <img src="../img/helck.jpg" alt="helck" class="img-fluid w-100 d-block">
+                        <p class="titulo">Helck</p>
                     </a>
-                </div><div class="col-sm-6 col-md-3 col-lg-2 hijo-manga">
-                    <a href="https://www3.animeflv.net/anime/captain-tsubasa-season-2-junior-youthhen">
-                        <img src="../img/captaintsu.jpg" alt="Tsubasa" class="img-fluid w-100 d-block">
-                        <p class="titulo">Captain Tsubasa Season 2</p>
+                </div><div class="col-sm-6 col-md-3 col-lg-2 hijo-anime">
+                    <a href="">
+                        <img src="../img/kaguya sama pelicula.jpg" alt="Kaguya-sama-pelicula" class="img-fluid w-100 d-block">
+                        <p class="titulo">Kaguya sama Pelicula</p>
                     </a>
-                </div><div class="col-sm-6 col-md-3 col-lg-2 hijo-manga">
-                    <a href="https://www3.animeflv.net/anime/captain-tsubasa-season-2-junior-youthhen">
-                        <img src="../img/captaintsu.jpg" alt="Tsubasa" class="img-fluid w-100 d-block">
-                        <p class="titulo">Captain Tsubasa Season 2</p>
+                </div><div class="col-sm-6 col-md-3 col-lg-2 hijo-anime">
+                    <a href="">
+                        <img src="../img/mix.jpg" alt="meisei-story" class="img-fluid w-100 d-block">
+                        <p class="titulo">Mix : Meisei Story</p>
                     </a>
                 </div>
                 
             </div>
-            <br><br><br><br><br><br>
+            
             <div class="row d-flex justify-content-center">
-                <div class="col-sm-6 col-md-3 col-lg-2 hijo-manga">
+                <div class="col-sm-6 col-md-3 col-lg-2 hijo-anime">
                     <a href="https://www3.animeflv.net/anime/dorohedoro">
                         <img src="../img/doroanime.jpg" alt="dorohedoro" class="img-fluid w-100 d-block">
                         <p class="titulo">Dorohedoro</p>
                     </a>
                 </div>
-                <div class="col-sm-6 col-md-3 col-lg-2 hijo-manga">
-                    <a href="https://www3.animeflv.net/anime/dorohedoro">
-                        <img src="../img/doroanime.jpg" alt="dorohedoro" class="img-fluid w-100 d-block">
-                        <p class="titulo">Dorohedoro</p>
+                <div class="col-sm-6 col-md-3 col-lg-2 hijo-anime">
+                    <a href="https://www3.animeflv.net/anime/mob-psycho-100">
+                        <img src="../img/mob psycho 100.jpg" alt="mob" class="img-fluid w-100 d-block">
+                        <p class="titulo">Mob Psycho 100</p>
                     </a>
-                </div><div class="col-sm-6 col-md-3 col-lg-2 hijo-manga">
-                    <a href="https://www3.animeflv.net/anime/dorohedoro">
-                        <img src="../img/doroanime.jpg" alt="dorohedoro" class="img-fluid w-100 d-block">
-                        <p class="titulo">Dorohedoro</p>
+                </div><div class="col-sm-6 col-md-3 col-lg-2 hijo-anime">
+                    <a href="https://www3.animeflv.net/anime/kaguyasama-wa-kokurasetai-tensaitachi-no-renai-zunousen">
+                        <img src="../img/kaguya-sama 1.jpg" alt="kaguyatemp1" class="img-fluid w-100 d-block">
+                        <p class="titulo">kaguya-sama:love is war</p>
                     </a>
-                </div><div class="col-sm-6 col-md-3 col-lg-2 hijo-manga">
-                    <a href="https://www3.animeflv.net/anime/dorohedoro">
-                        <img src="../img/doroanime.jpg" alt="dorohedoro" class="img-fluid w-100 d-block">
-                        <p class="titulo">Dorohedoro</p>
+                </div><div class="col-sm-6 col-md-3 col-lg-2 hijo-anime">
+                    <a href="https://www3.animeflv.net/anime/isekai-ojisan">
+                        <img src="../img/isekai ojisan.jpg" alt="ojisan" class="img-fluid w-100 d-block">
+                        <p class="titulo">Isekai Ojisan</p>
                     </a>
-                </div><div class="col-sm-6 col-md-3 col-lg-2 hijo-manga">
-                    <a href="https://www3.animeflv.net/anime/dorohedoro">
-                        <img src="../img/doroanime.jpg" alt="dorohedoro" class="img-fluid w-100 d-block">
-                        <p class="titulo">Dorohedoro</p>
+                </div><div class="col-sm-6 col-md-3 col-lg-2 hijo-anime">
+                    <a href="">
+                        <img src="../img/imsoniacs after school.jpg" alt="imsoniacs after school" class="img-fluid w-100 d-block">
+                        <p class="titulo">imsoniacs after school</p>
                     </a>
-                </div><div class="col-sm-6 col-md-3 col-lg-2 hijo-manga">
-                    <a href="https://www3.animeflv.net/anime/dorohedoro">
-                        <img src="../img/doroanime.jpg" alt="dorohedoro" class="img-fluid w-100 d-block">
-                        <p class="titulo">Dorohedoro</p>
+                </div><div class="col-sm-6 col-md-3 col-lg-2 hijo-anime">
+                    <a href="">
+                        <img src="../img/sonny.jpg" alt="sonny boy" class="img-fluid w-100 d-block">
+                        <p class="titulo">Sonny Boy</p>
                     </a>
                 </div>
         </section>
@@ -157,34 +165,18 @@
         <div class="container-fluid tm-container-small">
             <div class="row">
                 <div class="col-lg-6 col-md-12 col-12 px-5 mb-5">
-                    <h3 class="tm-text-primary mb-4 tm-footer-title">Acerca de nosotros</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas placeat explicabo atque est temporibus? Itaque perspiciatis, voluptatem praesentium eaque labore harum aliquam debitis eligendi, provident vel possimus. Ratione, rerum beatae?</p>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6 col-12 px-5 mb-5">
-                    <h3 class="tm-text-primary mb-4 tm-footer-title">Nuestros Links</h3>
-                    <ul class="tm-footer-links pl-0">
-                        <li><a href="#">Inicio</a></li>
-                        <li><a href="#">Animes</a></li>
-                        <li><a href="#">Mangas</a></li>
-                        <li><a href="#">Contacto</a></li>
-                        <li><a href="#">Noticias</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6 col-12 px-5 mb-5 ">
+                    <h3 class="tm-text-primary mb-4 tm-footer-title">Conectate con Nosotros</h3>
                     <ul class=" justify-content-end  redes">
-                    
-                        <li class="mb-2"><a href="">Facebook</a></li>
-                        <li class="mb-2"><a href="">Twitter</a></li>
-                        <li class="mb-2"><a href="">Instagram</a></li>
+                        <li class="mb-2 separacion"><a href="">Facebook</a></li>
+                        <li class="mb-2 separacion"><a href="">Twitter</a></li>
+                        <li class="mb-2 separacion"><a href="">Instagram</a></li>
+                        <li class="mb-2 separacion"><a href="#">Contacto</a></li>
                     </ul>
+                
                     <a href="#" class="tm-text-gray text-right d-block mb-2">Terms of Use</a>
                     <a href="#" class="tm-text-gray text-right d-block">Privacy Policy</a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-8 col-md-7 col-12 px-5 mb-3">
                     Derechos de autor © 2023 Noticias. Todos los derechos reservados.
-                </div>
+                </div>   
             </div>
         </div>
     </footer>

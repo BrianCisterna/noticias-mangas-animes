@@ -47,7 +47,12 @@ a {
 
 
 
-
+.tituloDeNoticia{
+    font-size: 24px !important;
+    font-family: 'Afacad', sans-serif;
+    font-weight: bold;
+    vertical-align: baseline
+}
 
 .subrayado {
     text-decoration: underline;
@@ -223,6 +228,7 @@ main section ul li a figure {
 /* Mangas  */
 
 .hijo-manga {
+    padding-top: 20px;
     border-radius: 3px;
     justify-items: center;
     align-items: center;
@@ -365,34 +371,8 @@ main section div div h3 {
     }
 }
 
-@media (max-width:640px) {
-    .columnas {
-        grid-template-columns: 1fr !important;
-    }
-
-}
 
 
-.contacto label {
-    font-size: 200%;
-    /*Cambia la medida rem de 16px a 10px*/
-    font-family: 'Afacad', sans-serif;
-    color: rgba(253, 238, 30, 0.922)
-}
-
-.contacto p {
-    font-size: 200%;
-    /*Cambia la medida rem de 16px a 10px*/
-    font-family: 'Afacad', sans-serif;
-    color: rgba(253, 238, 30, 0.922)
-}
-
-.contacto address {
-    font-size: 200%;
-    /*Cambia la medida rem de 16px a 10px*/
-    font-family: 'Afacad', sans-serif;
-    color: rgba(253, 238, 30, 0.922)
-}
 
 
 /* footer */

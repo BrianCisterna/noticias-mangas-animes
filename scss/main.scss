@@ -1,3 +1,18 @@
-@import "components/header";
+@import "utilities/mixin";
+@import "utilities/variables";
 @import "components/global";
+@import "utilities/extends";
+
+
+
+@import "components/header";
+@import "components/footer-f";
+
+
 @import "pages/main-index";
+@import "pages/main-noticia";
+@import "pages/main-contacto";
+@import "pages/main-manga";
+@import "pages/main-anime";
+
+@import "utilities/media-queris"

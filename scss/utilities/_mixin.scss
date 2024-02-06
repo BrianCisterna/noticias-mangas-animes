@@ -1,0 +1,16 @@
+@mixin flex($display, $flex-wrap, $align-items, $justify-content) {
+    display: $display;
+    flex-wrap: $flex-wrap;
+    align-items: $align-items;
+    justify-content: $justify-content;
+}
+
+@mixin boton($background-color,$border,$font-size,$border-color ) {
+    
+    background-color: $background-color;
+    border: $border;
+    font-size: $font-size;
+    border-color: $border-color;
+    
+}
+
