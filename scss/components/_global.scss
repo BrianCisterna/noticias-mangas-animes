@@ -60,19 +60,21 @@ a {
 .formularios-buscar {
     display: inline;
     flex-flow: column;
+    
 }
 
 .formularios-buscar {
+    color: beige;
     
     input {
-        
+        color: beige;
 
-        @include boton(rgb(49, 49, 70),solid, 130%,rgb(86, 86, 248))
+        @include boton(rgb(49, 49, 70),solid, 130%,rgb(86, 86, 248));
         
     }
 
     select {
-        
+        color: beige;
         @include boton(rgb(49, 49, 70),solid, 130%,rgb(86, 86, 248));
         
         option{
@@ -83,7 +85,11 @@ a {
 }
 
 
+/* linea que sirve para separar las notas*/
 .linea {
+
     border-top: 1px solid white;
+
     margin: 10px 0;
+
 }

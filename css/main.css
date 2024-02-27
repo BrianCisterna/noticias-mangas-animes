@@ -61,13 +61,18 @@ a {
   flex-flow: column;
 }
 
+.formularios-buscar {
+  color: beige;
+}
 .formularios-buscar input {
+  color: beige;
   background-color: rgb(49, 49, 70);
   border: solid;
   font-size: 130%;
   border-color: rgb(86, 86, 248);
 }
 .formularios-buscar select {
+  color: beige;
   background-color: rgb(49, 49, 70);
   border: solid;
   font-size: 130%;
@@ -77,6 +82,7 @@ a {
   color: beige;
 }
 
+/* linea que sirve para separar las notas*/
 .linea {
   border-top: 1px solid white;
   margin: 10px 0;
@@ -92,6 +98,23 @@ header {
   position: sticky;
   top: 0px;
 }
+header .navbar form {
+  background-color: transparent !important;
+  overflow: hidden !important;
+}
+header .navbar form input {
+  background-color: transparent !important;
+}
+header .navbar form button {
+  border-color: rgb(79, 95, 245) !important;
+  text-decoration-color: rgb(245, 79, 93) !important;
+  color: rgb(79, 95, 245) !important;
+}
+header .navbar form button:hover {
+  border-color: rgb(208, 212, 250) !important;
+  background-color: rgb(220, 228, 245) !important;
+  color: rgba(81, 111, 211, 0.922) !important;
+}
 header .tamaño {
   font-size: 22px !important;
 }
@@ -99,8 +122,15 @@ header .tamaño {
 .footer-f {
   font-family: "Afacad", sans-serif;
   color: aquamarine;
-  background-color: rgb(11, 6, 39);
+  background-color: rgba(36, 36, 37, 0.925);
   font-size: 18px;
+}
+.footer-f h2 {
+  font-size: 200%;
+}
+.footer-f .centrar {
+  text-align: center;
+  font-size: 20px;
 }
 .footer-f .redes {
   font-family: "Afacad", sans-serif;
@@ -132,7 +162,9 @@ header .tamaño {
   position: relative;
 }
 .main-index .box-index .hijo-index img {
-  width: 92%;
+  width: 100%;
+  display: flex;
+  align-items: center;
 }
 .main-index .box-index .hijo-index .titulo {
   position: absolute;
@@ -145,9 +177,6 @@ header .tamaño {
   border-radius: 1px;
 }
 
-.main-noticias {
-  /*linea separadora de noticias*/
-}
 .main-noticias .tituloDeNoticia {
   font-size: 24px !important;
   font-family: "Afacad", sans-serif;
@@ -158,6 +187,7 @@ header .tamaño {
   border-radius: 1%;
 }
 .main-noticias .linea {
+  /*linea separadora de noticias*/
   border-top: 1px solid white;
   margin: 10px 0;
 }
@@ -208,7 +238,8 @@ header .tamaño {
 .main-contacto .seccion .columnas {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  column-gap: 4rem;
+  -moz-column-gap: 4rem;
+       column-gap: 4rem;
 }
 .main-contacto .seccion .columnas .media-columna .formulario {
   display: flex;
@@ -229,6 +260,7 @@ header .tamaño {
   font-size: 150%;
 }
 .main-contacto .seccion .columnas .media-columna .formulario button {
+  width: -moz-fit-content;
   width: fit-content;
   border-color: rgb(86, 86, 248);
   padding: 0.5rem 0.4rem;
@@ -287,6 +319,4 @@ header .tamaño {
   .footer-f .redes {
     display: inline-block;
   }
-}
-
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */

@@ -3,7 +3,41 @@ header {
     position: sticky;
     top: 0px;
 
+
+    .navbar {
+        form {
+
+            background-color: transparent !important;
+            overflow: hidden !important;
+
+            input {
+                background-color: transparent !important;
+            }
+
+            button {
+                border-color: rgb(79, 95, 245) !important;
+                text-decoration-color: rgb(245, 79, 93) !important;
+                color: rgb(79, 95, 245) !important;
+
+                
+            }
+
+            button:hover {
+                border-color: rgb(208, 212, 250) !important;
+                background-color: rgb(220, 228, 245) !important;
+                color:$color-palabra-principal !important;
+            }
+
+
+        }
+
+    }
+
+
+
     .tamaño {
         font-size: 22px !important;
     }
+
+
 }
