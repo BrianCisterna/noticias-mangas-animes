@@ -1,5 +1,8 @@
+
 .main-index {
     z-index: 2;
+
+    /* caja contenedora de las series*/
     .box-index {
         background-color: rgb(49, 49, 70);
         border-radius: 10px;
@@ -15,13 +18,13 @@
             align-items: center; 
             position: relative; 
 
-
+            /*configuracion para centrar la imagen*/
             img  {
                 width: 100%; 
                 display: flex;  
                 align-items: center; 
             }  
-
+            /* Configuracion para visualizar los nombres de las series*/
             .titulo  { 
                 position:  absolute; 
                 font-size:  120%; 

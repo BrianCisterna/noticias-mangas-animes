@@ -19,7 +19,7 @@
         font-family: 'Afacad', sans-serif;
         font-size: 150%;
     }
-
+        /*configuracion del texto de la pagina de contacto*/
     .contact-primer-column {
         background: linear-gradient(to bottom, rgb(0 0 0/.5), rgb(0 0 0 /.5)), url(../img/foto.jpg)center;
         background-size: cover;
@@ -52,6 +52,7 @@
             column-gap: 4rem;
 
             .media-columna {
+                /*configuracion visual para mandar mensajes a la empresa*/
                 .formulario {
                     display: flex;
                     flex-flow: column;
